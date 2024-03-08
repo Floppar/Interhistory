@@ -1,0 +1,62 @@
+body {
+    background-color: gray;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#storyimg {
+    text-align: left;
+    height: 500px;
+    width: auto;
+    align-self: left;
+    max-width: 900px;
+}
+
+image {
+    height: 300px;
+    border: 10px black solid;
+    padding: 10px blue;
+}
+
+    #part2 { display: none;} #part2a {display: none;}
+    #part2b {
+        display: none;
+    }
+    #inshop1{
+        display: none;
+    }
+    #inshopsteal{
+        display: none;
+    }
+    #inshoppay{
+        display: none;
+    }
+    #fight {
+        display: none;
+    }
+    #meetfirst {
+        display: none;
+    }
+
+button {
+    align-items: center;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    font-size: 30px;
+    background-color: white;
+    cursor: pointer;
+    border: solid 2px black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.subjectcontainer {
+    display: grid;
+    grid-template-columns: auto;
+    width: auto;
+    float: right;
+    margin-right: 100px;
+    max-width: 680px;
+    margin-top: 40px;
+}
